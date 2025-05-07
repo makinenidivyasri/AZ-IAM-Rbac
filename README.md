@@ -47,26 +47,26 @@ Understanding the key concepts, role definitions, scopes, and best practices is 
 Roles can be assigned using the Azure Portal, Azure CLI, Azure PowerShell, or ARM templates. Below are steps for assigning roles in the Azure Portal:
 
 
-Navigate to the Azure Resource: 
+#### 1. Navigate to the Azure Resource: 
 
 Go to the Azure Portal (https://portal.azure.com).
 Find the resource, resource group, or subscription to which you want to assign a role.
 
 
-Go to IAM (Identity and Access Management):
+#### 2. Go to IAM (Identity and Access Management):
 
 In the left-hand menu of the resource, find Access Control (IAM).
 Click on + Add → Add role assignment.
 
 
-Select Role and Assignee:
+#### 3. Select Role and Assignee:
 
 Choose the role you want to assign from the available list.
 Select the user, group, or service principal to assign the role to.
 Specify the scope for the role assignment (e.g., resource group or resource).
 
 
-Review and Assign:
+#### 4. Review and Assign:
 
 Review the details and click Save to assign the role.
 
